@@ -1,0 +1,55 @@
+.card {
+  position: relative; background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius-lg); overflow: hidden;
+  transition: transform .22s, box-shadow .22s, border-color .22s;
+  display: flex; flex-direction: column;
+}
+.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); border-color: var(--border-2); }
+
+.image {
+  position: relative; aspect-ratio: 16/9;
+  background-size: cover; background-position: center; background-color: var(--surface-2);
+}
+.noimage {
+  position: absolute; inset: 0; display: flex; align-items: center;
+  justify-content: center; padding: 20px;
+}
+.noimage span {
+  font-size: clamp(14px,2vw,20px); font-weight: 800; color: rgba(255,255,255,.9);
+  text-align: center; line-height: 1.2; text-shadow: 0 2px 12px rgba(0,0,0,.4);
+}
+.order {
+  position: absolute; top: 10px; right: 10px;
+  width: 26px; height: 26px; border-radius: 50%;
+  background: rgba(0,0,0,.6); backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,.2); color: rgba(255,255,255,.7);
+  font-size: 11px; font-weight: 700; display: flex; align-items: center; justify-content: center;
+}
+
+.footer {
+  padding: 10px 14px 12px; display: flex; align-items: center;
+  justify-content: space-between; gap: 8px;
+}
+.tags { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; flex: 1; min-width: 0; }
+.tag {
+  display: inline-flex; align-items: center; gap: 4px;
+  padding: 3px 10px; border-radius: 100px; font-size: 11px; font-weight: 600;
+  background: var(--surface-2); color: var(--text-muted); border: 1px solid var(--border);
+  white-space: nowrap;
+}
+.cat { text-transform: uppercase; letter-spacing: .06em; font-size: 10px; }
+.loc { max-width: 140px; overflow: hidden; text-overflow: ellipsis; }
+
+.shareBtn {
+  flex-shrink: 0; width: 28px; height: 28px; border-radius: 50%;
+  background: rgba(37,211,102,.12); border: 1px solid rgba(37,211,102,.25);
+  color: #25d366; display: flex; align-items: center; justify-content: center;
+  cursor: pointer; transition: background .2s, transform .2s;
+}
+.shareBtn:hover { background: #25d366; color: #fff; transform: scale(1.1); }
+
+.accent {
+  position: absolute; bottom: 0; left: 0; right: 0; height: 2px;
+  opacity: 0; transition: opacity .22s;
+}
+.card:hover .accent { opacity: 1; }

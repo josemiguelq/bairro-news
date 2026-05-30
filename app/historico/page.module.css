@@ -1,0 +1,12 @@
+.searchBar { display:flex; gap:12px; margin-bottom:32px; flex-wrap:wrap; }
+.searchWrap { position:relative; flex:1; min-width:200px; }
+.searchIcon { position:absolute; left:14px; top:50%; transform:translateY(-50%); pointer-events:none; font-size:14px; }
+.list { display:flex; flex-direction:column; gap:8px; }
+.group { background:var(--surface); border:1px solid var(--border); border-radius:var(--radius); overflow:hidden; }
+.dateRow { width:100%; display:flex; align-items:center; justify-content:space-between; padding:20px 24px; cursor:pointer; background:none; border:none; color:var(--text); transition:background .2s; text-align:left; }
+.dateRow:hover { background:var(--surface-2); }
+.dateInfo { display:flex; align-items:center; gap:16px; }
+.dateLabel { font-size:17px; font-weight:600; letter-spacing:-.01em; font-variant-numeric:tabular-nums; }
+.dateCount { font-size:13px; color:var(--text-muted); background:var(--surface-2); padding:2px 10px; border-radius:100px; border:1px solid var(--border); }
+.cards { padding:0 20px 20px; display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:16px; border-top:1px solid var(--border); padding-top:16px; }
+@media(max-width:640px) { .searchBar select{width:100%} .cards{grid-template-columns:1fr} }
