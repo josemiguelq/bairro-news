@@ -1,0 +1,60 @@
+{
+  "announcements": [
+    {
+      "id": "1a2b3c4d-0001-0000-0000-000000000001",
+      "template": "modern",
+      "title": "Projeto Inverno",
+      "date": "2026-05-30",
+      "category": "asa",
+      "color": "#6366f1",
+      "image": "./../artes-anuncios/30-05-2026/1.jpeg",
+      "showOnScreen": true,
+      "duration": 10,
+      "order": 1,
+      "createdAt": "2026-05-28T10:00:00"
+    },
+    {
+      "id": "1a2b3c4d-0002-0000-0000-000000000002",
+      "template": "classic",
+      "subtitle": "Programação especial trimestral",
+      "date": "2026-05-30",
+      "time": "09:00",
+      "category": "ministério das crianças",
+      "color": "#c9a84c",
+      "image": "./../artes-anuncios/30-05-2026/2.png",
+      "showOnScreen": true,
+      "duration": 12,
+      "order": 2,
+      "createdAt": "2026-05-28T10:05:00"
+    },
+    {
+      "id": "1a2b3c4d-0003-0000-0000-000000000003",
+      "template": "minimal",
+      "title": "Aulas de violão",
+      "subtitle": "Professor Eros",
+      "date": "2026-05-30",
+      "time": "14:00",
+      "location": "Sala de Reuniões",
+      "category": "musica",
+      "color": "#0f766e",
+      "image": "./../artes-anuncios/30-05-2026/3.png",
+      "showOnScreen": true,
+      "duration": 8,
+      "order": 3,
+      "createdAt": "2026-05-28T10:10:00"
+    },
+    {
+      "id": "1a2b3c4d-0005-0000-0000-000000000005",
+      "template": "minimal",
+      "title": "Culto evangelístico",
+      "date": "2026-05-30",
+      "category": "culto",
+      "color": "#1d4ed8",
+      "image": "./../artes-anuncios/30-05-2026/5.png",
+      "showOnScreen": true,
+      "duration": 8,
+      "order": 4,
+      "createdAt": "2026-05-20T08:05:00"
+    }
+  ]
+}

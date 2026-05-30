@@ -1,0 +1,20 @@
+{
+  "announcements": [
+    {
+      "id": "1a2b3c4d-0006-0000-0000-000000000006",
+      "template": "classic",
+      "title": "Semana de Oração",
+      "subtitle": "Tema: Fé que transforma",
+      "date": "2026-05-16",
+      "time": "19:30",
+      "location": "IASD Bairro Amambaí",
+      "category": "eventos",
+      "color": "#9f1239",
+      "image": "./../artes-anuncios/16-05-2026/1.jpg",
+      "showOnScreen": true,
+      "duration": 15,
+      "order": 1,
+      "createdAt": "2026-05-13T09:00:00"
+    }
+  ]
+}
