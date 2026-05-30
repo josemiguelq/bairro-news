@@ -189,19 +189,24 @@ function goToLatest() {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 7px 16px;
+  padding: 8px 18px;
   border-radius: 100px;
   font-size: 13px;
-  font-weight: 600;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  color: var(--text-muted);
+  font-weight: 700;
+  background: rgba(212, 165, 32, 0.12);
+  border: 1px solid rgba(212, 165, 32, 0.5);
+  color: var(--accent);
   cursor: pointer;
   transition: all 0.2s;
   white-space: nowrap;
+  letter-spacing: 0.01em;
 }
 
-.prev-btn:hover { border-color: var(--accent); color: var(--accent); }
+.prev-btn:hover {
+  background: rgba(212, 165, 32, 0.22);
+  border-color: var(--accent);
+  box-shadow: 0 0 12px rgba(212, 165, 32, 0.2);
+}
 
 .prev-dropdown {
   position: absolute;
