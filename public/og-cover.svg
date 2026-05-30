@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- Fundo azul escuro -->
+  <rect width="1200" height="630" fill="#0a1628"/>
+
+  <!-- Gradiente sutil -->
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#122035"/>
+      <stop offset="100%" stop-color="#050d1a"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d4a520"/>
+      <stop offset="100%" stop-color="#f2cf6d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Linha dourada topo -->
+  <rect x="0" y="0" width="1200" height="4" fill="url(#gold)"/>
+  <!-- Linha dourada base -->
+  <rect x="0" y="626" width="1200" height="4" fill="url(#gold)"/>
+
+  <!-- Bordas laterais finas -->
+  <rect x="0" y="0" width="4" height="630" fill="#d4a520" opacity="0.3"/>
+  <rect x="1196" y="0" width="4" height="630" fill="#d4a520" opacity="0.3"/>
+
+  <!-- Nome da igreja -->
+  <text x="600" y="270" font-family="Georgia, serif" font-size="72" font-weight="700"
+        fill="#ffffff" text-anchor="middle" letter-spacing="-1">
+    IASD Bairro Amambaí
+  </text>
+
+  <!-- Linha separadora dourada -->
+  <rect x="440" y="305" width="320" height="2" fill="url(#gold)" opacity="0.8"/>
+
+  <!-- Subtítulo -->
+  <text x="600" y="360" font-family="Arial, sans-serif" font-size="32" font-weight="400"
+        fill="#d4a520" text-anchor="middle" letter-spacing="4">
+    SISTEMA DE ANÚNCIOS
+  </text>
+
+  <!-- Decoração: círculos -->
+  <circle cx="140" cy="315" r="60" fill="#d4a520" opacity="0.04"/>
+  <circle cx="140" cy="315" r="40" fill="none" stroke="#d4a520" stroke-width="1" opacity="0.15"/>
+  <circle cx="1060" cy="315" r="60" fill="#d4a520" opacity="0.04"/>
+  <circle cx="1060" cy="315" r="40" fill="none" stroke="#d4a520" stroke-width="1" opacity="0.15"/>
+</svg>
